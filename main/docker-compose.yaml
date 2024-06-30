@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  my_bot:
+    build: .
+    environment:
+      - API_KEY=7245919525:AAHKGwnDkmB6FxvN4wpOYH7WsZH0tAmsnJ0
+    restart: always
